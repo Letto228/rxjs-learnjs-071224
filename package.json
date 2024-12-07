@@ -7,12 +7,12 @@
     "test:theory": "cross-env module=0-theory node ./node_modules/karma/bin/karma start",
     "start:task-1": "cross-env module=1-swipe moduleName='Swipe' node ./node_modules/webpack/bin/webpack.js serve",
     "test:task-1": "cross-env module=1-swipe node ./node_modules/karma/bin/karma start",
-    "start:task-2": "cross-env module=2-slider moduleName='Slider' node ./node_modules/webpack/bin/webpack.js serve",
-    "test:task-2": "cross-env module=2-slider node ./node_modules/karma/bin/karma start",
-    "start:task-3": "cross-env module=3-drag-and-drop moduleName='Drag&Drop' node ./node_modules/webpack/bin/webpack.js serve",
-    "test:task-3": "cross-env module=3-drag-and-drop node ./node_modules/karma/bin/karma start",
-    "start:task-4": "cross-env module=4-live-search moduleName='Search' node ./node_modules/webpack/bin/webpack.js serve",
-    "test:task-4": "cross-env module=4-live-search node ./node_modules/karma/bin/karma start",
+    "start:task-2": "cross-env module=2-drag-and-drop moduleName='Drag&Drop' node ./node_modules/webpack/bin/webpack.js serve",
+    "test:task-2": "cross-env module=2-drag-and-drop node ./node_modules/karma/bin/karma start",
+    "start:task-3": "cross-env module=3-live-search moduleName='Search' node ./node_modules/webpack/bin/webpack.js serve",
+    "test:task-3": "cross-env module=3-live-search node ./node_modules/karma/bin/karma start",
+    "start:task-4": "cross-env module=4-animations moduleName=Animations node ./node_modules/webpack/bin/webpack.js serve",
+    "test:task-4": "cross-env module=4-animations node ./node_modules/karma/bin/karma start",
     "start:ws": "node ./server/ws.server.js"
   },
   "keywords": [
